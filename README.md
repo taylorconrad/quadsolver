@@ -1,0 +1,2 @@
+# quadsolver
+solves quadractics
