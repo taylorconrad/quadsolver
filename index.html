@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Taylors cool quad grapher and solvers</title>
+	<script type="text/javascript" src="quadscripts.js"></script>
+	<link rel="stylesheet" type="text/css" href="quadstyles.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<style type="text/css">
+	
+	html, body {
+		margin: 0px;
+	}
+	canvas {
+		display: block;
+	}
+	</style>
+</head>
+<body onload="init()">
+	<div id="wrapper">
+		<header>This is where I need a cool title</header>
+		<canvas id="mycanvas"></canvas>
+		<div id="coeff">
+			<p class="formInfo">Coefficients go here<br>
+
+				a = <input size="10" type="text" id="quadA" value="1"> <br>
+				b = <input size="10" type="text" id="linB" value="0"> <br>
+				c = <input size="10" type="text" id="constant" value="0"> <br>
+			</p>
+			<button onclick="QF()">Submit Values</button>
+			<button onclick= "plotYint()"> plot Y-Intercept</button>
+			<button onclick= "plotXint()"> plot X-Intercept</button>
+			<button onclick= "NewGraph()"> New Graph</button>
+			<button onclick= "zoomIN()"> Zoom in</button>
+			x = <input size= "5" type="text" id="xval" value="0"
+			<button onclick=
+		</div>
+		<div id="answers">
+			<p class="vertex"></p>
+			<span id="discrimnant"></span>
+		</div>
+	</div> 
+</body>
+</html>
+ 
